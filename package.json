@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "patch": "cp -p patch/empower.js node_modules/power-assert/node_modules/empower/lib/",
     "test": "node_modules/.bin/mocha-phantomjs test/assets/test.html"
   },
   "author": "",
@@ -18,5 +19,9 @@
     "grunt-mocha-phantomjs": "~0.4.0",
     "grunt-este-watch": "~0.1.15",
     "grunt-contrib-connect": "~0.6.0"
+  },
+  "devDependencies": {
+    "espowerify": "^0.1.0",
+    "power-assert": "^0.4.0"
   }
 }

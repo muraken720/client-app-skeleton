@@ -28,8 +28,7 @@ module.exports = (grunt) ->
             'test/initialize.coffee'
           ]
         options:
-
-          transform: ['coffeeify']
+          transform: ['coffeeify','espowerify']
 
     mocha_phantomjs:
       options:
