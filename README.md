@@ -17,6 +17,7 @@ bower install
 npm run patch
 grunt build
 grunt test
+open test/assets/test.html
 ```
 
 ## Result
