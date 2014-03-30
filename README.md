@@ -6,6 +6,7 @@ web app skeleton
 
 - coffee-script
 - browserify
+- power-assert
 - mocha-phantomjs
 
 ## Build
@@ -13,6 +14,7 @@ web app skeleton
 ```
 npm install
 bower install
+npm run patch
 grunt build
 grunt test
 ```
