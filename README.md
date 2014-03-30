@@ -1,6 +1,6 @@
 # Client App Skeleton
 
-web app skeleton
+web app skeleton (forked from mizchi-sandbox/client-app-skeleton)
 
 ## Components
 
