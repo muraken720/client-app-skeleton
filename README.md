@@ -14,7 +14,6 @@ web app skeleton (forked from mizchi-sandbox/client-app-skeleton)
 ```
 npm install
 bower install
-npm run patch
 grunt build
 grunt test
 open test/assets/test.html
