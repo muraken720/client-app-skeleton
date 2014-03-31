@@ -19,7 +19,6 @@
   "license": "BSD-2-Clause",
   "main": "index.js",
   "scripts": {
-    "patch": "cp -p patch/empower.js node_modules/power-assert/node_modules/empower/lib/",
     "test": "node_modules/.bin/mocha-phantomjs test/assets/test.html"
   }
 }
